@@ -745,7 +745,7 @@ function read_in() {
 }
 function send_out() {
 	var mydata = document.getElementById("text_outs").innerHTML;
-	var url = "fmp://$/test?script=getResult&param=" + encodeURIComponent(mydata);
+	var url = "fmp://$/OCR?script=getResult&param=" + encodeURIComponent(mydata);
 	window.location = url;
 }
 </script>
